@@ -1,11 +1,11 @@
-package com.epam;
+package com.epam.hello;
 
 public class Hello implements HelloMBean {
 
-    private String message = "Hello";
+    private String message;
 
-    public Hello() {
-
+    public Hello(String message) {
+        this.message = message;
     }
 
     @Override
